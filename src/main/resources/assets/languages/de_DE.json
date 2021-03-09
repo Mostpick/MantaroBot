@@ -154,9 +154,9 @@
         "success": "%1$sDu hast das automatische Ersetzen von kaputten Werkzeugen aktiviert, also habe ich dir eine neue **%2$s** in deinem Angelslot ausgerüstet."
       },
       "overflow": "%1$sDu hast Fische gefangen, aber dein Inventar war voll, also mussten wir sie ins Wasser werfen.",
-      "success": "%1$sWhile calmly fishing, you found %2$s using a *%3$s* and you proceed to save them into your bucket.",
-      "success_money": "%1$sWhile calmly fishing, you found %2$s and **$%3$,d credits** using a *%4$s* and you proceed to save them into your bucket.%5$s",
-      "success_money_noitem": "%1$sWhile calmly fishing, you found **$%2$,d credits** using a *%3$s* and you proceed to save them into your pocket.",
+      "success": "%1$sWährend du ruhig gefischt hast,hast du %2$s mit einer *%3$s* gefunden und legst sie in deinen Eimer. ",
+      "success_money": "%1$sWährend du ruhig gefischt hast, hast du %2$s and **$%3$,d credits**  mit einer *%4$s* und legst sie in deinen Eimer.%5$s",
+      "success_money_noitem": "%1$sWährend du ruhig gefischt hast, hast du **$%2$,d credits** mit einer *%3$s* und legst sie in deinen Eimer.",
       "rod_broke": "%1$sDeine Angelrute brach beim Versuch, einen Fisch zu fangen. :(",
       "waifu_help": "Deine Waifu kam und gesellte sich zu deinem Angelabenteuer dazu und ihr habt beide eine größere Beute erhalten!",
       "not_suitable": "%1$sDu kannst das nicht zum Fischen benutzen.",
@@ -572,7 +572,7 @@
         "too_long": "%1$sDer Liebesbrief ist zu lang (maximal 500 Zeichen).",
         "cannot_see": "%1$sIch kann den Nutzer, mit dem du verheiratet bist, nicht sehen... Vielleicht ist er mit mir auf keinem Server?",
         "confirmation": "%1$sBist du *sicher*, dass du diesen Brief für deine Ehe mit **%2$s#%3$s**? Dies ist PERMANENT, während die Ehe hält (Gebe yes für Ja und no für Nein ein). *Brieftext:* %4$s",
-        "confirmed": "%1$sSuccessfully delivered the love letter to your loved one! Check it using `~>marry status`",
+        "confirmed": "%1$sErfolgreich den Liebesbrief an deinen Geliebten verschickt! Überprüfe es mit `~>marry status`",
         "scrapped": "%1$sDu hast immer noch Zeit, um darüber nachzudenken, was du schreiben willst, kein Grund zur Eile!"
       },
       "status": {
@@ -580,7 +580,7 @@
         "header": "Aktueller Ehestatus",
         "description_format": "%1$sEhestatus von **%2$s** und **%3$s**",
         "date": "Hochzeitstag",
-        "age": "Marriage Age",
+        "age": "Heiratslänge",
         "love_letter": "Liebesbrief",
         "waifus": "Waifu Besitz",
         "house": "Hausname",
@@ -601,7 +601,7 @@
         "not_enough_money": "%1$sDu hast nicht genug Geld, um ein Haus zu kaufen. (Aktueller Hauspreis: %2$d Credits)",
         "no_name": "%1$sDu musst deinem Haus einen Namen geben! Als Beispiel, `~>marry house gemütliches Haus`",
         "confirm": "%1$sBist du dir sicher, dass du dieses Haus kaufen möchtest? Der Preis beträgt %2$d und der Name, welchen du dem Haus gibst, wird %3$s sein.\nGebe `yes` ein, um zu bestätigen oder `no`, um abzubrechen.",
-        "success": "%1$sYou successfully bought a house for %2$d credits. The name of your new cozy house is %3$s, enjoy!",
+        "success": "%1$sDu hast erfolgreich ein Haus für %2$d credits gekauft. Der Name deines neuen gemütlichen Zuhauses ist %3$s, genieß es!",
         "cancel_success": "%1$sKauf abgebrochen."
       },
       "buycar": {
@@ -609,7 +609,7 @@
         "not_enough_money": "%1$sDu hast nicht genug Geld, um ein Auto zu kaufen. (Aktueller Autopreis: %2$d Credits)",
         "no_name": "%1$sDu musst deinem Auto einen Namen geben! Als Beispiel, `~>marry car Vroom`",
         "confirm": "%1$sBist du dir sicher, dass du dieses Auto kaufen möchtest? Der Preis beträgt %2$d und der Name, welchen du dem Auto gibst, wird %3$s sein.\nGebe `yes` ein, um zu bestätigen oder `no`, um abzubrechen.",
-        "success": "%1$sYou successfully bought a car for %2$d credits. The name of your new fast car is %3$s, enjoy!",
+        "success": "%1$sDu hast erfolgreich ein Auto für %2$d credits gekauft. Der Name deines neuen schnellen Autos ist %3$s, genieß es!",
         "cancel_success": "%1$sKauf abgebrochen."
       },
       "no_mention": "%1$sErwähne den Benutzer, den du heiraten möchtest.",
@@ -627,7 +627,7 @@
     "divorce": {
       "confirm": "%1$sBist du dir sicher, dass du diese Ehe beenden willst? Das Geld, das für Haustiere, Häuser und Autos ausgegeben wurde, wird geteilt. Schreibe `yes`, um fortzufahren und `no`, um abzubrechen. **Dein Haustier wird verschwinden, da es an die Ehe gebunden ist**",
       "cancelled": "%1$sSchreidung abgebrochen.",
-      "not_married": "%1$sYou aren't married with anyone, why don't you find that special someone?\nWanna unclaim a Waifu? Use `~>waifu unclaim` instead.",
+      "not_married": "%1$sDu bist mit niemandem verheiratet,warum findest du nicht diesen besonderen Menschen?\nWillst du eine Waifu unclaimen? Benutz `~>waifu unclaim` stattdessen.",
       "success": "%1$sJetzt bist du Single. Das ist nett, denke ich zumindest.\n%2$s",
       "split": "Das Restgeld wurde zwischen beiden, durch das Verkaufen der gemeinsamen Besitztümer (Haustier, Haus, Auto), aufgeteilt. Jeder bekam **%1$d** Credits."
     },
@@ -649,7 +649,7 @@
         "key_locked": "%1$sDer Nutzer, den du beanspruchen wolltest ist vor Beanspruchung geschützt. Die Person kann dies mit `~>profile claimlock remove` entfernen.",
         "not_enough_money": "%1$sDu hast nicht genug Geld, um diese Waifu zu beanspruchen **(Kosten: %2$s Credits)**",
         "not_enough_slots": "%1$sDu hast nicht genug Plätze verfügbar, um diese Waifu zu beanspruchen. (Plätze: %2$s, Benutzt: %3$s)",
-        "success": "%1$sSuccessfully claimed `%2$s` for %3$,d credits. Slots used: %4$s",
+        "success": "%1$sErfolgreich `%2$s` geclaimed  für %3$,d credits. Plätze benutzt: %4$s",
         "yourself": "%1$sDu kannst dich nicht selbst beanspruchen!",
         "already_claimed": "%1$sDu hast diese Waifu bereits beansprucht.",
         "not_found": "%1$sIch kann keinen Nutzer mit diesen Angaben finden."
@@ -690,7 +690,7 @@
     },
     "ratewaifu": {
       "nothing_specified": "%1$sGib mir eine Waifu zum Bewerten!",
-      "success": "%1$sI rate your waifu with a **%2$,d/100**"
+      "success": "%1$sIch bewerte dein Waifu mit einer **%2$,d/100**"
     },
     "roll": {
       "success": "%1$sDu würfelst eine **%2$,d**%3$s",
@@ -702,7 +702,7 @@
       "success": "%1$s Die Ergebnisse von **%2$,d** Wurf/Würfen ergaben **%3$,d** Kopf und **%4$,d** Zahl"
     },
     "inventory": {
-      "bot_notice": "%1$sHere, bots have no inventory. Well, sometimes you might wish they had one but then it would only be a `~>dump`",
+      "bot_notice": "%1$sHier, Bots haben kein Inventar. Nun, manchmal wünscht man sich vielleicht, sie hätten eins, aber dann wäre es nur ein `~>dump`",
       "brief": "**%1$ss Gegenstandssammlung:** %2$s\n\n*Wenn du eine detailliertere Version hiervon willst, nutze `~>inventory -info`. Schönen Tag!*",
       "calculate": "%1$s%2$s erhält **%3$,d Credits**, wenn alle Gegenstände verkauft werden.",
       "header": "%1$ss Inventar",
@@ -713,7 +713,7 @@
     },
     "cast": {
       "no_item_specified": "%1$sDu hast keinen Gegenstand angegeben. Für eine Liste, nutze `~>cast ls`",
-      "no_item_found": "%1$sI didn't find any item matching that. Make sure to type the full item name to avoid mismatches, or use the emoji if you can. Example: `~>cast star pick`",
+      "no_item_found": "%1$sIch habe keinen passenden Gegestand gefunden. Stell sicher, dass du den vollständigen Gegenstandnamen eingeben hast, um Diskrepanzen zu vermeiden, oder verwenden Sie das Emoji, wenn du kannst. Beispiel: `~>cast star pick`",
       "item_not_cast": "%1$sYou cannot cast this item. You can check `~>cast ls` for a list of castable items. Try using the full name if you think you have the correct item.",
       "not_enough_money": "%1$sDu hast nicht genug Geld, um dies herzustellen. **(Kosten: %2$s)**",
       "no_item": "%1$sDu hast nicht den benötigten Gegenstand *%2$s*, um fortzufahren.",
